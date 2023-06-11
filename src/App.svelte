@@ -2,8 +2,6 @@
   let hue = 0;
   let cols = 10;
   let rows = 4;
-  let ds = 10;
-  let dl = 10;
 
   function generateHSL() {
     hue = (Math.random() * 360) | 0;
